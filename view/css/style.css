@@ -33,7 +33,7 @@ main{
     font-size: 25px;
     padding: 4px;
     overflow-x: auto;
-    background-color: #fff;
+    background-color: white;
 }
 table{
     margin-left: 15px;
