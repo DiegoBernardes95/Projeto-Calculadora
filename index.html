@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view/css/style.css">
+    <link rel="shortcut icon" href="view/imagens/calculadora.png" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <h1 id="titleH1">Calculadora</h1>
+        <p id="result"></p>
+        <table> <!-- Tabela -->
+            <tr> <!-- 1ª linha da tabela-->
+                <!-- Elementos da linha da tabela -->
+                <td><button onclick="limpar()" class="limpador">c</button></td>
+                <td><button onclick="del()" class="limpador"><</button></td>
+                <td><button onclick="insert('/')" class="operadores">/</button></td>
+                <td><button onclick="insert('*')" class="operadores">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('7')">7</button></td>
+                <td><button onclick="insert('8')">8</button></td>
+                <td><button onclick="insert('9')">9</button></td>
+                <td><button onclick="insert('-')" class="operadores">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('4')">4</button></td>
+                <td><button onclick="insert('5')">5</button></td>
+                <td><button onclick="insert('6')">6</button></td>
+                <td><button onclick="insert('+')" class="operadores">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insert('1')">1</button></td>
+                <td><button onclick="insert('2')">2</button></td>
+                <td><button onclick="insert('3')">3</button></td>
+                <td rowspan="2"><button id="equal" onclick="calc()" class="operadores">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="zero" onclick="insert('0')">0</button></td>
+                <td><button onclick="insert('.')">.</button></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>2022© - Desenvolvido por Diego Bernardes</p>
+    </footer>
+    <script src="controller/script.js"></script>
+</body>
+</html>
