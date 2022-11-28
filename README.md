@@ -13,6 +13,5 @@
 
 ## 🖥️ Projeto
 
-![print1](https://user-images.githubusercontent.com/113109526/204164757-11936a98-71ee-4ece-84f8-f53455c6ab3d.png)
 
 <p>Para acessar o projeto no GitHub Pages, <a href="https://diegobernardes95.github.io/Projeto-Calculadora/">clique aqui</a></p>
